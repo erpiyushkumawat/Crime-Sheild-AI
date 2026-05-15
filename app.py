@@ -23,7 +23,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- FILE PATHS ---
-DATA_PATH = "data/crime_dataset_india.csv"
+DATA_PATH = "crime_dataset_india.csv"
 MODEL_PATH = "models/crime_prediction_model.pkl"
 CITY_ENCODER_PATH = "models/le_city.pkl"
 DOMAIN_ENCODER_PATH = "models/le_domain.pkl"
